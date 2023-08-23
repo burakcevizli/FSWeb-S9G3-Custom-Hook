@@ -5,7 +5,7 @@ export const useInput = (key ,initialValue) => {
 
 	const onClickHandler = () => setDarkMode(!darkMode);
 
-	return [darkMode,setDarkMode,onClickHandler]; 
+	return [darkMode,setDarkMode, onClickHandler]; 
 };
 
  const useLocalStorage = (key, initialValue) => {
